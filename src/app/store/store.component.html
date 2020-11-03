@@ -3,8 +3,8 @@
         <div class="col bg-dark text-white">
             <a class="navbar-brand">
                 SPORTS STORE
-                <cart-summary></cart-summary>
             </a>
+          <cart-summary></cart-summary>
         </div>
     </div>
     <div class="row">
@@ -30,7 +30,7 @@
                 </h4>
                 <div class="card-text bg-white p-1">
                     {{product.description}}
-                    <button class="btn btn-success btn-sm float-right" (click) = "addProductToCart()">
+                    <button class="btn btn-success btn-sm float-right" (click) = "addProductToCart(product)">
                         Add To Cart
                     </button>
                 </div>
